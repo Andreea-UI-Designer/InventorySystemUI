@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2e2309;
+    font-family: Arial, sans-serif;
+    color: #e4e2e2;
+}
+
+.container {
+    width: 329px;
+    margin: auto;
+    padding: 10px;
+    background-color: #2e2309;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header .icon {
+    width: 48px;
+    height: 47px;
+}
+
+.header .title {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #e4e2e2;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 48px);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 48px;
+    height: 45px;
+    background-color: #392e16;
+}
+
+.footer {
+    background-color: #392e16;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer .trash-icon {
+    width: 36px;
+    height: 31px;
+    margin-bottom: 10px;
+}
+
+.add-items {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-items .arrow {
+    width: 48px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.add-items .add-items-text {
+    display: block;
+    margin-bottom: 10px;
+}
